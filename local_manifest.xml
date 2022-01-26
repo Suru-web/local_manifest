@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Trees -->
- <project path="device/12" name="oneplus-denniz/android_device_oneplus_denniz" remote="github" revision="lineage-18.1" />
- <project path="vendor/10or" name="oneplus-denniz/android_vendor_oneplus_denniz" remote="github" revision="master" />
- <project path="kernel/10or/G" name="oneplus-denniz/android_kernel_oneplus_mt6893" remote="github" revision="lineage-18.1" />
+ <project path="oneplus-denniz/android_device_oneplus_denniz" name="android_device_oneplus_denniz" remote="github" revision="master" />
+ <project path="oneplus-denniz/android_vendor_oneplus_denniz" name="android_vendor_oneplus_denniz" remote="github" revision="master" />
+ <project path="oneplus-denniz/android_kernel_oneplus_mt6893" name="android_kernel_oneplus_mt6893" remote="github" revision="master" />
  
 </manifest>
