@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+<remote name ="hyper"
+        fetch="https://github.com/hypercleric" />
+ <remote name ="giovix"
+         fetch="https://github.com/Giovix92" />
  <!-- Trees -->
- <project path="oneplus-denniz/android_device_oneplus_denniz" name="android_device_oneplus_denniz" remote="github" revision="master" />
- <project path="oneplus-denniz/android_vendor_oneplus_denniz" name="android_vendor_oneplus_denniz" remote="github" revision="master" />
- <project path="oneplus-denniz/android_kernel_oneplus_mt6893" name="android_kernel_oneplus_mt6893" remote="github" revision="master" />
+ <project path="device/oneplus/denniz" name="device_oneplus_denniz" remote="hyper" revision="elixir-12" />
+ <project path="vendor/oneplus" name="vendor_oneplus_denniz" remote="hyper" revision="master" />
+ <project path="kernel/oneplus/denniz" name="android_kernel_oneplus_mt6893" remote="giovix" revision="oneplus/MT6893_R_11.0" />
  
 </manifest>
