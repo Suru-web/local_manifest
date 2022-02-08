@@ -6,6 +6,6 @@
  <!-- Trees -->
  <project path="device/oneplus/denniz" name="device_oneplus_denniz" remote="Suru-web" revision="elixir-12" />
  <project path="vendor/oneplus/denniz" name="android_vendor_oneplus_denniz" remote="Suru-web" revision="lineage-18.1" />
- <project path="kernel/oneplus/denniz" name="android_kernel_oneplus_mt6893" remote="Suru-web" revision="oneplus/MT6893_R_11.0" />
+ <project path="kernel/oneplus/denniz" name="android_kernel_oneplus_denniz" remote="Suru-web" revision="11.x" />
  
 </manifest>
