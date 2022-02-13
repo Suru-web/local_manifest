@@ -3,11 +3,7 @@
 
  <remote name ="Suru-web"
          fetch="https://github.com/Suru-web" />
- <!-- Trash -->
-	<remove-project name="platform_device_qcom_sepolicy_vndr" />
 
-	<!-- Replacements -->
-	<project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" revision="twelve" remote="Suru-web" clone-depth="1"/>
  <!-- Trees -->
  <project path="device/oneplus/denniz" name="device_oneplus_denniz" remote="Suru-web" revision="elixir-12" />
  <project path="vendor/oneplus/denniz" name="android_vendor_oneplus_denniz" remote="Suru-web" revision="lineage-18.1" />
